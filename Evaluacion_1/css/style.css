@@ -1,0 +1,94 @@
+html ,body{
+    margin: 0px;
+    font-family: "Lora", serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'Lora', serif;
+    
+}
+
+.barra_navegacion{
+    background-color: grey;
+    display: flex;
+    height: auto;
+    width: 100%;
+
+}
+.empresa_logo, .menu_botones{
+    width: 50%;
+}
+
+.empresa_logo{
+    display: flex;
+    align-items: center;
+}
+
+.empresa_logo h2{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    align-content: center;
+    color: #1C1B17;
+}
+.empresa_logo img{
+    height: 40px;
+   
+    margin: 10px 0px 10px 10px;
+    
+}
+
+.menu_botones{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu_botones button{
+    background-color: #1C1B17;
+    border-radius: 5px;
+    border: none;
+    height: 80%;
+    margin-right: 10px;
+    color: gray;
+ 
+}
+
+
+.grupo_1_tarjetas{
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.tarjeta_1,.tarjeta_2{
+    min-height: 400px;
+    height: auto;
+}
+
+.tarjeta_1 img{
+    width: 100%;
+    height: auto;
+}
+
+.tarjeta_2 h1 , .tarjeta_2 p{
+    display: flex;
+    justify-content: center;
+    padding:  0px 50px 0px 50px;
+
+}
+
+.boton_comprar button {
+    background-color: #1C1B17;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    color: gray;
+    
+}
+.boton_comprar  {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    
+}
+
